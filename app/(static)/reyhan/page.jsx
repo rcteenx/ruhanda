@@ -5,12 +5,11 @@ import PageContent from "@/components/templates/pageContent";
 export default function ReyhanPage() {
   return (
     <>
-      <PageTitle>Merhaba - Reyhan Çetin</PageTitle>
-      <PageImage h1Color="white">Hoşgeldiniz</PageImage>
+      <PageTitle>Reyhan Çetin ve Arkadaşları</PageTitle>
+      <PageImage bgImage="rMerhaba">Hoşgeldin</PageImage>
 
       <PageContent h2Title="Reyhan Çetin Kimdir?">
         <p>Merhaba</p>
-        <p>Halen Çanakkale’nin Biga ilçesinde yaşıyorum.</p>
         <p>
           25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyorum.
           Binlerce katılımcıya seminer verdim ve yüzlerce çalışma grubu

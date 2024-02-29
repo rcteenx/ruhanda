@@ -7,9 +7,10 @@ const imageStyles = cva(
     variants: {
       bgImage: {
         default: "bg-rMerhaba",
+        rMerhaba: "bg-rMerhaba",
         fMerhaba: "bg-fMerhaba",
         tMerhaba: "bg-tMerhaba",
-        kMerhaba: "bg-kMerhaba",
+        iMerhaba: "bg-iMerhaba",
       },
     },
     defaultVariants: {
@@ -20,8 +21,8 @@ const imageStyles = cva(
 const h1Styles = cva("absolute -bottom-4 left-8 font-light ", {
   variants: {
     h1Color: {
-      default: "text-gray-800",
-      white: "text-white",
+      default: "text-white",
+      gray800: "text-gray-800",
     },
   },
   defaultVariants: {

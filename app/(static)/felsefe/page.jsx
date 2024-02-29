@@ -5,10 +5,8 @@ import PageContent from "@/components/templates/pageContent";
 export default function FelsefePage() {
   return (
     <>
-      <PageTitle>Ezoretik Felsefe Çalışmaları</PageTitle>
-      <PageImage bgImage="fMerhaba" h1Color="white">
-        Bekliyoruz.. Nerdesin?
-      </PageImage>
+      <PageTitle>Ezoretik Felsefe Araştırma Ve Uygulama</PageTitle>
+      <PageImage bgImage="fMerhaba">Nerdesin</PageImage>
       <PageContent h2Title="Neden Ezoterik Felsefe?">
         <p>
           Bildiğimiz haliyle insan, henüz tamamlanmamış bir varlık. Dahası, pek

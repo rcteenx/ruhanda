@@ -5,10 +5,8 @@ import PageContent from "@/components/templates/pageContent";
 export default function ToplulukPage() {
   return (
     <>
-      <PageTitle>Topluluk</PageTitle>
-      <PageImage bgImage="tMerhaba" h1Color="white">
-        Bekliyoruz.. Nerdesin?
-      </PageImage>
+      <PageTitle>Topluluğu</PageTitle>
+      <PageImage bgImage="tMerhaba">Seni Bekliyoruz</PageImage>
       <PageContent h2Title="Arkadaş Topluluğu">
         <p>Reyhan Çetin ve arkadaşları</p>
         <p>

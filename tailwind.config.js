@@ -32,7 +32,7 @@ module.exports = {
         rMerhaba: "url('/assets/images/reyhan-merhaba.jpg')",
         fMerhaba: "url('/assets/images/felsefe-merhaba.jpg')",
         tMerhaba: "url('/assets/images/topluluk-merhaba.jpg')",
-        kMerhaba: "url('/assets/images/katilim-merhaba.jpg')",
+        iMerhaba: "url('/assets/images/iletisim-merhaba.jpg')",
       }),
     },
   },
