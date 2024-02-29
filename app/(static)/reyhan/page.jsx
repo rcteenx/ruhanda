@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import PageTitle from "@/components/templates/pageTitle";
 import PageImage from "@/components/templates/pageImage";
 import PageContent from "@/components/templates/pageContent";
@@ -9,7 +11,6 @@ export default function ReyhanPage() {
       <PageImage bgImage="rMerhaba">Hoşgeldin</PageImage>
 
       <PageContent h2Title="Reyhan Çetin Kimdir?">
-        <p>Merhaba</p>
         <p>
           25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyorum.
           Binlerce katılımcıya seminer verdim ve yüzlerce çalışma grubu
@@ -59,6 +60,34 @@ export default function ReyhanPage() {
           <p className="mx-auto max-w-3xl text-xs">
             <sup>*</sup>Yunus Emre'nin "Bir Ben Vardır Bende" şiirinden alıntı.
           </p>
+        </div>
+      </section>
+
+      <section className="px-4 py-12 md:py-24">
+        <div className="container-p">
+          <h2 className="text-2xl md:text-4xl font-bold text-center">
+            İLGİLİ SAYFALAR
+          </h2>
+          <div className="mt-12">
+            <ul className="flex flex-wrap justify-center  gap-4">
+              <li>
+                <Link
+                  className=" w-64 border px-12 py-8 text-center  transition ease-in hover:bg-gray-100"
+                  href="/reyhan/cetin"
+                >
+                  Reyhan Çetin
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100"
+                  href="/reyhan/arkadaslar"
+                >
+                  Arkadaşları
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </>

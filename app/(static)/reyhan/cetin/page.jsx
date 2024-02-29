@@ -85,6 +85,51 @@ export default function ReyhanPage() {
           </div>
         </div>
       </section>
+
+      <section className="px-4 py-12 md:py-24">
+        <div className="container-p">
+          <h2 className="text-2xl md:text-4xl font-bold text-center">
+            DİĞER REYHANLAR
+          </h2>
+          <div className="mt-12">
+            <ul className="flex flex-wrap justify-center  gap-4">
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Elif'in Babası
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                İnci'in Babası
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Kaan'in Babası
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Annesinin Oğlu
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Kardeşinin Abisi
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Eski Koca
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                İşletme Mezunu
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Yazılımcı
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Bigalı
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Boğaziçili
+              </li>
+              <li className=" w-64 border px-12 py-8 text-center transition ease-in hover:bg-gray-100">
+                Çanakkaleli
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
