@@ -29,6 +29,40 @@ export const contBioHero = {
     "This is a front-end web developer from Turkey. Thanks to modern frameworks such as Next JS and Tailwind CSS, it is fun & fast to build & maintain web applications. Let's build something together.",
 };
 
+export const subPages = [
+  {
+    id: 1,
+    title: "Reyhan",
+    link: "/reyhan",
+    pages: [
+      { id: 1, title: "cetin", link: "/cetin" },
+      { id: 2, title: "arkadaslar", link: "/arkadaslar" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Felsefe",
+    link: "/felsefe",
+    pages: [
+      { id: 1, title: "ezoterizm", link: "/ezoterizm" },
+      { id: 2, title: "felsefe", link: "/felsefe" },
+      { id: 3, title: "calismalar", link: "/calismalar" },
+      { id: 4, title: "sss", link: "/sss" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Topluluk",
+    link: "/topluluk",
+    pages: [
+      { id: 1, title: "davet", link: "/davet" },
+      { id: 2, title: "yapı", link: "/yapi" },
+      { id: 3, title: "calismalar", link: "/calismalar" },
+      { id: 4, title: "sss", link: "/sss" },
+    ],
+  },
+];
+
 export const footerLinks = [
   {
     title: "Ezoterik Felsefe",

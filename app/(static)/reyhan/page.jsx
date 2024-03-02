@@ -3,6 +3,8 @@ import Link from "next/link";
 import PageTitle from "@/components/templates/pageTitle";
 import PageImage from "@/components/templates/pageImage";
 import PageContent from "@/components/templates/pageContent";
+import SubLinks from "@/components/sections/sub-links";
+import { subPages } from "@/content/data";
 
 export default function ReyhanPage() {
   return (
@@ -90,6 +92,8 @@ export default function ReyhanPage() {
           </div>
         </div>
       </section>
+
+      <SubLinks subPage={subPages[0]} />
     </>
   );
 }
