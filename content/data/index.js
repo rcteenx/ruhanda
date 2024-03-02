@@ -1,9 +1,3 @@
-export const navLinksStatic = [
-  { id: "1", href: "reyhan", label: "reyhan" },
-  { id: "2", href: "felsefe", label: "felsefe" },
-  { id: "3", href: "topluluk", label: "topluluk" },
-];
-
 export const contHero = {
   coral1: "Reyhan Çetin ve Arkadaşları",
   coral2: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
@@ -29,86 +23,101 @@ export const contBioHero = {
     "This is a front-end web developer from Turkey. Thanks to modern frameworks such as Next JS and Tailwind CSS, it is fun & fast to build & maintain web applications. Let's build something together.",
 };
 
-export const subPages = [
+export const arkadasList = [
+  {
+    id: 1,
+    title: "Serkan",
+    link: "serkan",
+  },
+  {
+    id: 2,
+    title: "Aslı",
+    link: "aslı",
+  },
+  {
+    id: 3,
+    title: "Ali Şevki",
+    link: "ali-sevki",
+  },
+  {
+    id: 4,
+    title: "Eda",
+    link: "eda",
+  },
+  {
+    id: 5,
+    title: "Veysel",
+    link: "aslı",
+  },
+  {
+    id: 6,
+    title: "Tuğba",
+    link: "tugba",
+  },
+  {
+    id: 7,
+    title: "Bahar",
+    link: "bahar",
+  },
+];
+
+export const StaticPages = [
   {
     id: 1,
     title: "Reyhan",
-    link: "/reyhan",
+    link: "reyhan",
     pages: [
-      { id: 1, title: "cetin", link: "/cetin" },
-      { id: 2, title: "arkadaslar", link: "/arkadaslar" },
+      { id: 1, title: "reyhan kim?", link: "kimim" },
+      { id: 2, title: "arkadaslar", link: "arkadaslar" },
     ],
   },
   {
     id: 2,
     title: "Felsefe",
-    link: "/felsefe",
+    link: "felsefe",
     pages: [
-      { id: 1, title: "ezoterizm", link: "/ezoterizm" },
-      { id: 2, title: "felsefe", link: "/felsefe" },
-      { id: 3, title: "calismalar", link: "/calismalar" },
-      { id: 4, title: "sss", link: "/sss" },
+      { id: 1, title: "ezoterizm", link: "ezoterizm" },
+      { id: 2, title: "felsefe", link: "felsefe" },
+      { id: 3, title: "çalışmalar", link: "calismalar" },
+      { id: 4, title: "sss", link: "sss" },
     ],
   },
   {
     id: 3,
     title: "Topluluk",
-    link: "/topluluk",
+    link: "topluluk",
     pages: [
-      { id: 1, title: "davet", link: "/davet" },
-      { id: 2, title: "yapı", link: "/yapi" },
-      { id: 3, title: "calismalar", link: "/calismalar" },
-      { id: 4, title: "sss", link: "/sss" },
-    ],
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Ezoterik Felsefe",
-    links: [
-      { name: "Ezoterizm", link: "/tutorials/tailwind/bookmark/index.html" },
-      { name: "Felsefe", link: "/tutorials/tailwind/clipboard/index.html" },
+      { id: 1, title: "davet", link: "davet" },
+      { id: 2, title: "yapı", link: "yapi" },
+      { id: 3, title: "çalışmalar", link: "calismalar" },
+      { id: 4, title: "sss", link: "sss" },
     ],
   },
   {
-    title: "Topluluk",
-    links: [
-      {
-        name: "Bilgi",
-        link: "tutorials/web-parts/email-subscribe/index.html",
-      },
-      {
-        name: "Katılım",
-        link: "/tutorials/web-parts/image-gallery/index.html",
-      },
-    ],
-  },
-  {
+    id: 4,
     title: "İletişim",
-    links: [
-      { name: "rhan.cetinx@gmail.com", link: "mailto:rhan.cetinx@gmail.com" },
-      { name: "+90 (544) 308 74 02", link: "tel:+905443087402" },
+    link: "iletisim",
+    pages: [
+      {
+        id: 1,
+        title: "rhan.cetinx@gmail.com",
+        link: "mailto:rhan.cetinx@gmail.com",
+      },
+      { id: 2, title: "+90 (544) 308 74 02", link: "tel:+905443087402" },
     ],
   },
 ];
 
 export const socialMedia = [
-  // { src: instagram, alt: "instagram logo" },
   {
-    svgIcon: "github",
-    alt: "github logo",
-    link: "https://github.com/rcteenx",
+    svgIcon: "instagram",
+    alt: "instagram logo",
+    link: "https://www.instagram.com/reyhancetinx",
   },
   {
-    svgIcon: "linkedin",
-    alt: "linkedin logo",
-    link: "https://www.linkedin.com/in/rcteenx",
-  },
-  {
-    svgIcon: "twitter",
-    alt: "twitter logo",
-    link: "https://twitter.com/rcteenx",
+    svgIcon: "facebook",
+    alt: "facebook logo",
+    link: "https://www.facebook.com/reyhancetinx",
   },
 ];
 
@@ -124,5 +133,4 @@ export const skillBar = [
   { id: 1, label: "Time Management & Teamwork", percent: "80" },
   { id: 1, label: "Turkish", percent: "100" },
   { id: 1, label: "English", percent: "90" },
-  // { id: 1, label: "German", percent: "45" },
 ];

@@ -1,7 +1,8 @@
 import {
+  FaFacebook,
   FaGithub,
+  FaInstagram,
   FaLinkedin,
-  FaTwitter,
   FaArrowRight,
   FaRegFileAlt,
   FaInfoCircle,
@@ -17,9 +18,10 @@ import {
 } from "react-icons/fa";
 
 const iconTypes = {
+  facebook: FaFacebook,
   github: FaGithub,
+  instagram: FaInstagram,
   linkedin: FaLinkedin,
-  twitter: FaTwitter,
   arrowright: FaArrowRight,
   regfilealt: FaRegFileAlt,
   infocircle: FaInfoCircle,

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SubLinks({ subPage, id }) {
+export default function SubPages({ subPage, id }) {
   return (
     <section className="px-4 py-12 md:py-24">
       <div className="container-p">

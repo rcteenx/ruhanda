@@ -2,8 +2,8 @@ import Link from "next/link";
 import PageTitle from "@/components/templates/pageTitle";
 import PageImage from "@/components/templates/pageImage";
 import PageContent from "@/components/templates/pageContent";
-import SubLinks from "@/components/sections/sub-links";
-import { subPages } from "@/content/data";
+import SubPages from "@/components/sections/sub-menu";
+import { StaticPages } from "@/content/data";
 
 export default function ToplulukPage() {
   return (
@@ -107,7 +107,7 @@ export default function ToplulukPage() {
           </ul>
         </div>
       </PageContent>
-      <SubLinks subPage={subPages[2]} id="4" />
+      <SubPages subPage={StaticPages[2]} id="4" />
     </>
   );
 }
