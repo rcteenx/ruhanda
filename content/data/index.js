@@ -1,12 +1,12 @@
 export const contHero = {
   coral1: "Reyhan Çetin ve Arkadaşları",
   coral2: "Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
-  fline: "Ben Kimim ya da NE?",
-  span: "Nasıl Olurum?",
-  desc: "Çok Katmanlı* mimariye göre hazırlanmış çalışmalarımız, cevapları ve dahası henüz sormadığınız soruları sunuyor.",
-  btn1: "İletişim",
+  fline: "YENİDEN BAŞLIYORUZ",
+  span: "Hazır mısınız?",
+  desc1: "Bilinçli Farkındalık (H12) çalışmalarımızın kaldığı yerden,",
+  desc2: "yeni bir anlayışla, kendimize doğru yola çıkıyoruz.",
+  btn1: "Whatsapp",
   btn2: "Bilgi",
-  info: "Kişilik, Öz, Bilinç ve Saf Benlik olarak tanımlanmış insan modeli",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 

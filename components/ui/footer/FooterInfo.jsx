@@ -4,7 +4,7 @@ import IconComponent from "@/components/ui/icons/icons";
 
 const FooterInfo = () => {
   return (
-    <div className="flex flex-col justify-center items-center sm:items-start">
+    <div className="flex flex-col">
       <a href="/">
         <img
           src={footerLogo.src}
@@ -12,9 +12,8 @@ const FooterInfo = () => {
           className="m-0 p-2 h-28 w-28 border-2 border-gray rounded-full"
         />
       </a>
-      <p className="mt-6 text-base text-center sm:text-left leading-7 text-white-400 sm:max-w-sm">
-        Sizin de, kendinizi keşfedeceğiniz ve deneyimleyebileceğiniz bir
-        topluluğa ...
+      {/* <p className="mt-6 text-base text-center sm:text-left leading-7 text-white-400 sm:max-w-sm">
+        Kendimizi deneyimleyebileceğiniz bir alan
       </p>
       <div className="flex items-center gap-5 mt-4">
         {socialMedia.map((icon) => (
@@ -27,7 +26,7 @@ const FooterInfo = () => {
             </a>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

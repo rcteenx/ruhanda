@@ -1,6 +1,6 @@
 import smd from "@/content/data/siteMetaData";
-
-import Hero from "@/components/sections/1-hero-1-home";
+import PageTitle from "@/components/templates/pageTitle";
+import Hero from "@/components/sections/home-hero";
 
 export async function generateMetadata() {
   return {

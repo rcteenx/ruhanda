@@ -1,6 +1,7 @@
-import FooterCopyRight from "@/components/ui/footer/FooterCopyRight";
 import FooterInfo from "@/components/ui/footer/FooterInfo";
 import FooterLinks from "@/components/ui/footer/FooterLinks";
+import FooterSocial from "./FooterSocial";
+import FooterCopyRight from "@/components/ui/footer/FooterCopyRight";
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
         <FooterLinks />
       </div>
 
+      <FooterSocial />
       <FooterCopyRight />
     </footer>
   );

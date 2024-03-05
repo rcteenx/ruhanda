@@ -10,7 +10,7 @@ export default function ReyhanPage() {
   return (
     <>
       <PageTitle>Reyhan Çetin ve Arkadaşları</PageTitle>
-      <PageImage bgImage="rMerhaba">Hoşgeldin</PageImage>
+      <PageImage bgImage="rMerhaba">Hoşgeldiniz</PageImage>
 
       <PageContent h2Title="Merhaba">
         <p>
@@ -18,15 +18,15 @@ export default function ReyhanPage() {
           Binlerce katılımcıya seminer verdim ve yüzlerce çalışmayı yönettim.
         </p>
         <p>
-          Kişisel yolculuğum pandemi ile birleşti. Sessizlik dönemine ve kendim
-          sandığım bilinçten vazgeçmeye yol açtı.
+          Pandemi dönemi pek çok çalışmayı durdurmama sebep oldu. Sessizlik
+          dönemine ve kendim sandığım bilinçten vazgeçmeye yol açtı.
         </p>
         <p>
           Şimdi kendimizi bulabileceğimiz ve kendimiz olabileceğimiz bir alan
           oluşturuyoruz. Sadece "<strong>çalışma</strong>" değil; aynı zamanda
-          sanat, şefkat, sevgi, muhabbet ve arkadaşlık için.
+          sevgi, anlayış, şefkat, muhabbet ve arkadaşlık için.
         </p>
-        <p>Sevgilerle ...</p>
+        <p>Sevgilerle.</p>
       </PageContent>
 
       <SubPages subPage={StaticPages[0]} />
