@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="grow">
           <div className="text-center md:text-left">
-            <h3>KURUMSAL</h3>
+            <h3>KURUMSAL Linkler</h3>
             <ul>
               <li>
                 <a href="/about-us">Hakkımızda</a>
