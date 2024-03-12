@@ -1,13 +1,13 @@
 import "./globals.css";
 
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 
 import smd from "@/content/data/siteMetaData";
 
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
-const base = Poppins({
+const base = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-base",

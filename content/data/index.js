@@ -10,101 +10,26 @@ export const contHero = {
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
-export const contBioHero = {
-  coral1: "Front-End Web Developer",
-  coral2: "& E-commerce Consultant",
-  fline: "Front-End Developer",
-  span: "TOOL BOX",
-  desc: "Hedefler doğrultusunda bilinçli olarak yapılandırılmamış web sayfaları, dijital dünyada fırsat kayıplarına neden oluyor",
-  btn1: "Bize Ulaşın",
-  btn2: "Bilgi Al",
-  quoteTitle: "<h1>Hello World!</h1>",
-  quote:
-    "This is a front-end web developer from Turkey. Thanks to modern frameworks such as Next JS and Tailwind CSS, it is fun & fast to build & maintain web applications. Let's build something together.",
-};
-
-export const arkadasList = [
-  {
-    id: 1,
-    title: "Serkan",
-    link: "serkan",
-  },
-  {
-    id: 2,
-    title: "Aslı",
-    link: "aslı",
-  },
-  {
-    id: 3,
-    title: "Ali Şevki",
-    link: "ali-sevki",
-  },
-  {
-    id: 4,
-    title: "Eda",
-    link: "eda",
-  },
-  {
-    id: 5,
-    title: "Veysel",
-    link: "aslı",
-  },
-  {
-    id: 6,
-    title: "Tuğba",
-    link: "tugba",
-  },
-  {
-    id: 7,
-    title: "Bahar",
-    link: "bahar",
-  },
-];
-
 export const StaticPages = [
   {
     id: 1,
-    title: "Reyhan",
-    link: "reyhan",
-    pages: [
-      { id: 1, title: "reyhan kim?", link: "kimim" },
-      { id: 2, title: "arkadaslar", link: "arkadaslar" },
-    ],
+    title: "Hakkımızda",
+    link: "hakkımızda",
   },
   {
     id: 2,
-    title: "Felsefe",
-    link: "felsefe",
-    pages: [
-      { id: 1, title: "ezoterizm", link: "ezoterizm" },
-      { id: 2, title: "felsefe", link: "felsefe" },
-      { id: 3, title: "çalışmalar", link: "calismalar" },
-      { id: 4, title: "sss", link: "sss" },
-    ],
+    title: "Göz Yastıkları",
+    link: "goz-yastiklari",
   },
   {
     id: 3,
-    title: "Topluluk",
-    link: "topluluk",
-    pages: [
-      { id: 1, title: "davet", link: "davet" },
-      { id: 2, title: "yapı", link: "yapi" },
-      { id: 3, title: "çalışmalar", link: "calismalar" },
-      { id: 4, title: "sss", link: "sss" },
-    ],
+    title: "Göz Bantları",
+    link: "goz-bantlari",
   },
   {
     id: 4,
     title: "İletişim",
     link: "iletisim",
-    pages: [
-      {
-        id: 1,
-        title: "rhan.cetinx@gmail.com",
-        link: "mailto:rhan.cetinx@gmail.com",
-      },
-      { id: 2, title: "+90 (544) 308 74 02", link: "tel:+905443087402" },
-    ],
   },
 ];
 

@@ -1,8 +1,9 @@
-import rcHero from "./rcteenx-480-400.png";
-import siteLogo from "./rcteenx.jpeg";
-import footerLogo from "./rcteenx.jpeg";
-import ziyaretci from "./ziyaretci.png";
-import reyhan from "./reyhan.jpg";
-import rVideo from "./reyhan-video.jpg";
+import gy1 from "./goz-yastigi-1.jpeg";
+import gy2 from "./goz-yastigi-2.jpeg";
+import gy3 from "./goz-yastigi-3.jpeg";
+import gy4 from "./goz-yastigi-4.jpeg";
+import slider1 from "./ruhanda-slider-1.jpeg";
+import slider2 from "./ruhanda-slider-2.jpeg";
+import slider3 from "./ruhanda-slider-3.jpeg";
 
-export { rcHero, rVideo, siteLogo, footerLogo, ziyaretci, reyhan };
+export { gy1, gy2, gy3, gy4, slider1, slider2, slider3 };

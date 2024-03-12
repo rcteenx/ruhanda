@@ -1,14 +1,14 @@
 import Link from "next/link";
 import smd from "@/content/data/siteMetaData";
 
-const HeaderLogo = () => {
+export default function HeaderLogo() {
   return (
-    <Link id="platform" href="/" className="">
-      <div className="w-12 md:w-16 xl:w-20 z-10">
-        <img src={smd.siteLogo} alt={smd.title} className="p-0.5 " />
-      </div>
-    </Link>
+    <div className="h-18 container-p flex justify-center items-center">
+      <h3 className="mx-auto">
+        <Link id="ruhanda" href="/" className="">
+          <img src={smd.siteLogo} alt={smd.title} className="mx-auto w-36" />
+        </Link>
+      </h3>
+    </div>
   );
-};
-
-export default HeaderLogo;
+}

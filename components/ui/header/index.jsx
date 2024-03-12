@@ -1,14 +1,13 @@
+import HeaderInfo from "@/components/ui/header/Info";
 import HeaderLogo from "@/components/ui/header/Logo";
-import Nav from "@/components/ui/header/Nav";
-import Contact from "@/components/ui/header/Contact";
+import HeaderNav from "@/components/ui/header/Nav";
 
 export default function HeaderStaticIndex() {
   return (
-    // md:justify-between
-    <header className="mx-auto container-p pt-2 flex items-center justify-between">
+    <header id="header">
+      <HeaderInfo />
       <HeaderLogo />
-      <Nav />
-      <Contact />
+      <HeaderNav />
     </header>
   );
 }

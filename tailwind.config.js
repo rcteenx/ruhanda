@@ -17,7 +17,9 @@ module.exports = {
         base: ["var(--font-base)", "sans-serif"],
       },
       colors: {
-        primary: "#8c8c8c",
+        primary: "#660066",
+        blackx: "#090909",
+        blacky: "#666",
         slate: "#333366",
         slate2: "#5b5b84",
         gray40: "#666666",
