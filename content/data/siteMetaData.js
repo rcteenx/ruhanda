@@ -1,12 +1,10 @@
 // please update required information
 const siteMetadata = {
-  title:
-    "Reyhan Çetin ve Arkadaşları -  Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  title: "Ruhanda Göz Yastıkları - Handmade Therapy",
   author: "rcteenx",
-  headerTitle:
-    "Reyhan Çetin ve Arkadaşları | Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  headerTitle: "Ruhanda Göz Yastıkları - Handmade Therapy",
   description:
-    "Reyhan Çetin ve Arkadaşları Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+    "Yoga, meditasyon ve gündelik yaşamda dinlenme amacı ile kullanılan göz yastıkları ile sizi anda kalmaya davet ediyoruz. ruhanda.com’a hoşgeldiniz.",
   language: "tr-TR",
   siteUrl: "https://ruhanda.com/",
   siteLogo: "/ruhanda-logo.jpg",

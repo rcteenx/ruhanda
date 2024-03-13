@@ -17,7 +17,7 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <section className="container container-p my-12 md:my-24 text-center text-primary ">
+      <section className="mx-auto container container-p my-12 md:my-24 text-center text-primary ">
         <h2 className="text-2xl md:text-6xl">LAVANDER EYE PILLOW</h2>
         <h3 className="md:text-3xl">LAVANTALI GÖZ YASTIĞI</h3>
         <p className="text-blacky">
@@ -36,7 +36,22 @@ export default function Home() {
           desteklenmiştir.
         </p>
       </section>
-      <section className="my-12 md:my-24 text-center bg-primary h-48 "></section>
+      <section className="py-12 my-12 md:my-24 text-center bg-primary text-white">
+        <div className="p-4 mx-auto">
+          <h2 className="">BİZ KİMİZ?</h2>
+          <p className="">
+            Öz ile buluşmak için çıkılan ruhsal yolculukta, “
+            <strong>Nasıl dingin, anda ve dengede kalabilirim?</strong>” sorusu
+            ile başladı bu serüven.
+          </p>
+          <p>
+            İçeriye iyi gelenin dışarı ile paylaşılması gerektiğine inanan Aslı
+            Mursaloğlu, bu yolculuk esnasında kendisine destek olan göz yastığı
+            fikrini geliştirip, özel tasarımları ile modernize etti.
+          </p>
+          <p>Aldığı bu ilhamla Ruhanda markası için aşkla çalışıyor.</p>
+        </div>
+      </section>
 
       <section className="mx-auto container container-p my-12 md:my-24  ">
         <h2 className="text-center text-primary text-3xl border-b  border-primary">
