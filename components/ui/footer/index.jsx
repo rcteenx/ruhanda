@@ -15,6 +15,11 @@ export default function Footer() {
           </h4>
           <ul>
             <li className="mt-1 font-montserrat text-sm leading-normal  hover:text-slate-gray">
+              <a href="https://wa.me/905306407372" target="_blank">
+                whatsapp mesaj
+              </a>
+            </li>
+            <li className="mt-1 font-montserrat text-sm leading-normal  hover:text-slate-gray">
               <a href="mailto:bilgi@ruhanda.com" target="_blank">
                 bilgi@ruhanda.com
               </a>

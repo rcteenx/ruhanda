@@ -13,21 +13,16 @@ export const contHero = {
 export const StaticPages = [
   {
     id: 1,
-    title: "Hakkımızda",
-    link: "hakkımızda",
+    title: "hakkımızda",
+    link: "hakkimizda",
   },
   {
     id: 2,
-    title: "Göz Yastıkları",
-    link: "goz-yastiklari",
+    title: "ürünler",
+    link: "urunler",
   },
   {
     id: 3,
-    title: "Göz Bantları",
-    link: "goz-bantlari",
-  },
-  {
-    id: 4,
     title: "İletişim",
     link: "iletisim",
   },

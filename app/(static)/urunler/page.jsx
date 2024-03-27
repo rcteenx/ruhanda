@@ -8,35 +8,9 @@ export async function generateMetadata() {
   };
 }
 
-export default function Home() {
+export default function Urunler() {
   return (
     <main>
-      <section className="relative bg-[url('/assets/images/ruhanda-slider-1.jpeg')] bg-center bg-cover h-[300px]">
-        <div className="flex flex-col justify-center">
-          <h1 className=" m-auto mt-6 px-4 py-2 text-white text-xl md:text-4xl border rounded-xl">
-            RUHANDA HANDMADE THERAPY
-          </h1>
-          <div className="mx-auto mt-40 md:mt-36 flex flex-row space-x-4 justify-center">
-            <a
-              href="https://wa.me/905306407372"
-              target="_blank"
-              className="btn-hero bg-primary text-white"
-            >
-              <IconComponent name="whatsapp" size={24} color="white" />
-              WhatsApp
-            </a>
-            <a
-              href="/urunler"
-              className="btn-hero bg-white text-primary hover:border-b"
-            >
-              <div className="bg-primary rounded-full p-1 mr-2">
-                <IconComponent name="regfilealt" size={18} color="white" />
-              </div>
-              Bilgi
-            </a>
-          </div>
-        </div>
-      </section>
       <section className="mx-auto container container-p my-12 md:my-24 text-center text-primary ">
         <h2 className="text-2xl md:text-6xl">LAVANDER EYE PILLOW</h2>
         <h3 className="md:text-3xl">LAVANTALI GÖZ YASTIĞI</h3>
