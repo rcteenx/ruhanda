@@ -12,39 +12,25 @@ export default function Iletisim() {
   return (
     <main>
       <section className="mx-auto container container-p my-12 md:my-24 text-center text-primary ">
-        <h2 className="text-2xl md:text-6xl">LAVANDER EYE PILLOW</h2>
-        <h3 className="md:text-3xl">LAVANTALI GÖZ YASTIĞI</h3>
-        <p className="text-blacky">
-          Yaşamın içerisinde bir çok duygu ile birlikteyiz. Duygularımıza
-          kapılıp gittiğimiz zamanlarda kimi zaman anda-kendimizden
-          uzaklaşabiliyoruz. Böyle zamanlarda ihtiyacımız olan; kendimize dönmek
-          ve içimize bakmak. İşte aşkla yapılan Ruhanda göz yastıklarımız sizin
-          huzurlu ve dingin bir yaşam sürebilmeniz için destek bir ürün olarak
-          ortaya çıktı. Ruhanda göz yastıkları dinlenme sırasında ışığı ağırlığı
-          ile engeller ve lavantanın rahatlatıcı etkisi ile kendinize zaman
-          ayırmanızı sağlar.
-        </p>
-        <p>
-          Lavantalı Ruhanda göz yastığı aşkla tasarlanmış olup, lavantalar
-          Isparta'nın yerli üreticilerinden alınarak çevre dostu kumal ile
-          desteklenmiştir.
-        </p>
-      </section>
-      <section className="py-12 my-12 md:my-24 text-center bg-primary text-white">
-        <div className="p-4 mx-auto">
-          <h2 className="">BİZ KİMİZ?</h2>
-          <p className="">
-            Öz ile buluşmak için çıkılan ruhsal yolculukta, “
-            <strong>Nasıl dingin, anda ve dengede kalabilirim?</strong>” sorusu
-            ile başladı bu serüven.
-          </p>
-          <p>
-            İçeriye iyi gelenin dışarı ile paylaşılması gerektiğine inanan Aslı
-            Mursaloğlu, bu yolculuk esnasında kendisine destek olan göz yastığı
-            fikrini geliştirip, özel tasarımları ile modernize etti.
-          </p>
-          <p>Aldığı bu ilhamla Ruhanda markası için aşkla çalışıyor.</p>
-        </div>
+        <h2 className="text-2xl md:text-6xl">İLETİŞİM</h2>
+        <h3 className="md:text-3xl">Bize Ulaşın</h3>
+        <ul>
+          <li className="mt-1 font-montserrat text-sm leading-normal  hover:text-slate-gray">
+            <a href="https://wa.me/905306407372" target="_blank">
+              whatsapp mesajı
+            </a>
+          </li>
+          <li className="mt-1 font-montserrat text-sm leading-normal  hover:text-slate-gray">
+            <a href="mailto:bilgi@ruhanda.com" target="_blank">
+              bilgi@ruhanda.com
+            </a>
+          </li>
+          <li className="mt-1 font-montserrat text-sm leading-normal  hover:text-slate-gray">
+            <a href="tel:+05306407372" target="_blank">
+              +90 (530) 6407372
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="mx-auto container container-p my-12 md:my-24  ">

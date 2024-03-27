@@ -12,39 +12,17 @@ export default function Urunler() {
   return (
     <main>
       <section className="mx-auto container container-p my-12 md:my-24 text-center text-primary ">
-        <h2 className="text-2xl md:text-6xl">LAVANDER EYE PILLOW</h2>
-        <h3 className="md:text-3xl">LAVANTALI GÖZ YASTIĞI</h3>
+        <h2 className="text-2xl md:text-6xl">ÜRÜNLERİMİZ</h2>
+        <h3 className="md:text-3xl">GÖZ BANTI VE GÖZ YASTIĞI</h3>
         <p className="text-blacky">
-          Yaşamın içerisinde bir çok duygu ile birlikteyiz. Duygularımıza
-          kapılıp gittiğimiz zamanlarda kimi zaman anda-kendimizden
-          uzaklaşabiliyoruz. Böyle zamanlarda ihtiyacımız olan; kendimize dönmek
-          ve içimize bakmak. İşte aşkla yapılan Ruhanda göz yastıklarımız sizin
-          huzurlu ve dingin bir yaşam sürebilmeniz için destek bir ürün olarak
-          ortaya çıktı. Ruhanda göz yastıkları dinlenme sırasında ışığı ağırlığı
-          ile engeller ve lavantanın rahatlatıcı etkisi ile kendinize zaman
-          ayırmanızı sağlar.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+          facilis, mollitia consectetur, repellat ab distinctio perferendis
+          laborum harum voluptatem quis, impedit alias iste laboriosam ipsam
+          praesentium? Dolore beatae quas amet? Aperiam id provident quo
+          mollitia enim voluptate illo dolore totam pariatur exercitationem rem
+          tempora unde est, quas, vitae harum suscipit qui delectus quos sit
+          iusto molestiae! Quas pariatur est eum!
         </p>
-        <p>
-          Lavantalı Ruhanda göz yastığı aşkla tasarlanmış olup, lavantalar
-          Isparta'nın yerli üreticilerinden alınarak çevre dostu kumal ile
-          desteklenmiştir.
-        </p>
-      </section>
-      <section className="py-12 my-12 md:my-24 text-center bg-primary text-white">
-        <div className="p-4 mx-auto">
-          <h2 className="">BİZ KİMİZ?</h2>
-          <p className="">
-            Öz ile buluşmak için çıkılan ruhsal yolculukta, “
-            <strong>Nasıl dingin, anda ve dengede kalabilirim?</strong>” sorusu
-            ile başladı bu serüven.
-          </p>
-          <p>
-            İçeriye iyi gelenin dışarı ile paylaşılması gerektiğine inanan Aslı
-            Mursaloğlu, bu yolculuk esnasında kendisine destek olan göz yastığı
-            fikrini geliştirip, özel tasarımları ile modernize etti.
-          </p>
-          <p>Aldığı bu ilhamla Ruhanda markası için aşkla çalışıyor.</p>
-        </div>
       </section>
 
       <section className="mx-auto container container-p my-12 md:my-24  ">
